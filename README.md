@@ -1,13 +1,17 @@
 ⚔️ Desafio Classificador de Nível de Herói
+
 🎯 Objetivo
+
 Este projeto tem como objetivo classificar o nível de um herói com base em sua quantidade de experiência (XP). Para isso, foram utilizadas variáveis, operadores, laços de repetição (embora não sejam estritamente necessários para este desafio, a estrutura de decisão if/else cumpre o papel de forma mais direta) e estruturas de decisão.
 
 💻 Tecnologias Utilizadas
+
 O código foi desenvolvido em:
 
 JavaScript
 
 📂 Estrutura de Decisão
+
 O nível do herói é determinado por uma estrutura de decisão if-else if-else que verifica o XP e atribui um nível correspondente.
 
 XP do Herói	Nível
@@ -21,7 +25,9 @@ Menor que 1.000	Ferro
 Maior ou igual a 10.001	Radiante
 
 Exportar para as Planilhas
+
 ✨ Como Rodar o Código
+
 Você pode executar o código diretamente no seu navegador, no console, ou usando o Node.js.
 
 Código JavaScript
@@ -53,7 +59,9 @@ if (xpHeroi < 1000) {
 
 // Mensagem de saída
 console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`);
+
 🚀 Saída
+
 A saída final exibirá uma mensagem formatada, mostrando o nome do herói e seu nível:
 
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
